@@ -1,7 +1,9 @@
 #include <iostream>
 #include "mylib.h"
+#include "printer.h"
 
 int main(){
-	std::cout << "My_number is " << give_number() << std::endl ;
+	int num = give_number();
+	print(num);	
 	return 0;
 }
